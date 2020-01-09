@@ -33,7 +33,6 @@
         <name>StaticResource</name>
     </types>
     <types>
-        <members>Contact</members>
         <name>CustomObject</name>
     </types>
     <types>
