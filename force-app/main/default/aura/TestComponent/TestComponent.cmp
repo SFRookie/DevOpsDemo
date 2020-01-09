@@ -1,0 +1,7 @@
+<!--
+ - Created by sanjeev.karanwal on 1/9/20.
+ -->
+
+<aura:component description="TestComponent" implements="force:hasRecordId, flexipage:availableForAllPageTypes">
+    This is the first page
+</aura:component>
