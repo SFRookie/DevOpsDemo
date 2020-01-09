@@ -33,6 +33,7 @@
         <name>StaticResource</name>
     </types>
     <types>
+        <members>CusLog__c</members>
         <name>CustomObject</name>
     </types>
     <types>
