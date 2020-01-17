@@ -34,4 +34,12 @@ private class MathUtilTest {
         Integer z = MathUtil.multiplyInt(x,y);
         System.assertEquals(15,z);
     }
+
+    @isTest
+    static void testDivideInt() {
+        Integer x = 4;
+        Integer y = 2;
+        Decimal z = MathUtil.divideInt(x,y);
+        System.assertEquals(2.0, z);
+    }
 }
