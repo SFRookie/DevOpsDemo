@@ -6,7 +6,7 @@
   description="TestComponent"
   implements="force:hasRecordId,flexipage:availableForAllPageTypes"
 >
-  This is the first page
+  This is the Updated page
   <lightning:recordViewForm recordId="{!v.recordId}" objectApiName="Account">
     <div class="slds-grid">
       <div class="slds-col slds-size_1-of-2">
@@ -14,6 +14,14 @@
       </div>
       <div class="slds-col slds-size_1-of-2">
         <lightning:outputField fieldName="Type" />
+      </div>
+    </div>
+    <div class="slds-grid">
+      <div class="slds-col slds-size_1-of-2">
+        <lightning:outputField fieldName="Active__c" />
+      </div>
+      <div class="slds-col slds-size_1-of-2">
+        <lightning:outputField fieldName="Industry" />
       </div>
     </div>
   </lightning:recordViewForm>
