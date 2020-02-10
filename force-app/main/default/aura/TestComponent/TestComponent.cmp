@@ -6,23 +6,29 @@
   description="TestComponent"
   implements="force:hasRecordId,flexipage:availableForAllPageTypes"
 >
-  This is the Modified page
+    
+ 
+  <div class="slds-theme_default">
   <lightning:recordViewForm recordId="{!v.recordId}" objectApiName="Account">
-    <div class="slds-grid">
-      <div class="slds-col slds-size_1-of-2">
-        <lightning:outputField fieldName="Name" />
+    
+           This is the Modified page
+      <div class="slds-grid">
+        <div class="slds-col slds-size_1-of-2">
+          <lightning:outputField fieldName="Name" />
+        </div>
+        <div class="slds-col slds-size_1-of-2">
+          <lightning:outputField fieldName="Type" />
+        </div>
       </div>
-      <div class="slds-col slds-size_1-of-2">
-        <lightning:outputField fieldName="Type" />
+      <div class="slds-grid">
+        <div class="slds-col slds-size_1-of-2">
+          <lightning:outputField fieldName="Active__c" />
+        </div>
+        <div class="slds-col slds-size_1-of-2">
+          <lightning:outputField fieldName="Industry" />
+        </div>
       </div>
-    </div>
-    <div class="slds-grid">
-      <div class="slds-col slds-size_1-of-2">
-        <lightning:outputField fieldName="Active__c" />
-      </div>
-      <div class="slds-col slds-size_1-of-2">
-        <lightning:outputField fieldName="Industry" />
-      </div>
-    </div>
+  
   </lightning:recordViewForm>
+      </div>
 </aura:component>
