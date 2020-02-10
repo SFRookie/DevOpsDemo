@@ -7,8 +7,8 @@
  * @Description        : 
  * @Author             : sanjeev.karanwal
  * @Group              : 
- * @Last Modified By   : sanjeev.karanwal
- * @Last Modified On   : 1/9/20
+ * @Last Modified By   : Sanjeev Karanwal
+ * @Last Modified On   : 2/10/2020, 2:07:35 PM
  * @Modification Log   : 
  *==============================================================================
  * Ver         Date                     Author      		      Modification
@@ -40,5 +40,9 @@ public with sharing class MathUtil {
 
     public static Decimal divideInt(integer x, Integer y) {
         return x/y;
+    }
+
+    public static Integer subInt(Integer x, Integer y) {
+        return x - y;
     }
 }

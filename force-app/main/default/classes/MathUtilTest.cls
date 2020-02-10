@@ -7,8 +7,8 @@
  * @Description        : 
  * @Author             : sanjeev.karanwal
  * @Group              : 
- * @Last Modified By   : sanjeev.karanwal
- * @Last Modified On   : 1/9/20
+ * @Last Modified By   : Sanjeev Karanwal
+ * @Last Modified On   : 2/10/2020, 2:08:28 PM
  * @Modification Log   : 
  *==============================================================================
  * Ver         Date                     Author      		      Modification
@@ -41,5 +41,13 @@ private class MathUtilTest {
         Integer y = 2;
         Decimal z = MathUtil.divideInt(x,y);
         System.assertEquals(2.0, z);
+    }
+
+    @isTest
+    static void testSubInt() {
+        Integer x = 6;
+        Integer y = 3;
+        Integer z = MathUtil.subInt(x, y);
+        System.assertEquals(3,z);
     }
 }
