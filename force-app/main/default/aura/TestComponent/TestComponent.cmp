@@ -6,12 +6,9 @@
   description="TestComponent"
   implements="force:hasRecordId,flexipage:availableForAllPageTypes"
 >
-    
- 
   <div class="slds-theme_default">
-  <lightning:recordViewForm recordId="{!v.recordId}" objectApiName="Account">
-    
-           This is the Modified page
+    <lightning:recordViewForm recordId="{!v.recordId}" objectApiName="Account">
+      This is the Updated/Modified page
       <div class="slds-grid">
         <div class="slds-col slds-size_1-of-2">
           <lightning:outputField fieldName="Name" />
@@ -28,7 +25,6 @@
           <lightning:outputField fieldName="Industry" />
         </div>
       </div>
-  
-  </lightning:recordViewForm>
-      </div>
+    </lightning:recordViewForm>
+  </div>
 </aura:component>
