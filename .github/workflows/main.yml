@@ -42,7 +42,7 @@ jobs:
         #  node_modules/sfdx-cli/bin/run force:mdapi:convert --rootdir . --outputdir codeDeploy
         #  node_modules/sfdx-cli/bin/run force:mdapi:deploy --wait 10 --deploydir codeDeploy --targetusername devhub --testlevel $TESTLEVEL
 
-        if: contains(github.ref, "master")
+        if: contains(github.ref,'master')
         run: |
           echo deploying to environment
           node_modules/sfdx-cli/bin/run force:source:deploy --manifest ./manifest/package.xml -u devhub
