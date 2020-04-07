@@ -6,7 +6,7 @@
   description="TestComponent"
   implements="force:hasRecordId,flexipage:availableForAllPageTypes"
 >
-  My Awesome Account Information
+  My Awesome Demo Account Information
   <lightning:recordViewForm recordId="{!v.recordId}" objectApiName="Account">
     <div class="slds-grid">
       <div class="slds-col slds-size_1-of-2">
