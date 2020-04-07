@@ -8,7 +8,7 @@
  * @Author             : sanjeev.karanwal
  * @Group              : 
  * @Last Modified By   : Sanjeev Karanwal
- * @Last Modified On   : 4/7/2020, 3:20:23 PM
+ * @Last Modified On   : 4/7/2020, 3:41:44 PM
  * @Modification Log   : 
  *==============================================================================
  * Ver         Date                     Author      		      Modification
@@ -42,11 +42,13 @@ public with sharing class MathUtil {
         return x/y;
     }
 
-   // Add a method for subtraction
+     // Add a method for subtraction
 
    public static Integer subInt(Integer x, Integer y) {
     System.debug('Inside subInt');
     return x - y;
 }
+
+  
 
 }
