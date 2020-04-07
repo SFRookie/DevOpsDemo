@@ -8,7 +8,7 @@
  * @Author             : sanjeev.karanwal
  * @Group              : 
  * @Last Modified By   : Sanjeev Karanwal
- * @Last Modified On   : 2/10/2020, 2:08:28 PM
+ * @Last Modified On   : 4/7/2020, 3:20:52 PM
  * @Modification Log   : 
  *==============================================================================
  * Ver         Date                     Author      		      Modification
@@ -43,6 +43,7 @@ private class MathUtilTest {
         System.assertEquals(2.0, z);
     }
 
+    // Add a test method for testing sub
     @isTest
     static void testSubInt() {
         Integer x = 6;
@@ -50,4 +51,5 @@ private class MathUtilTest {
         Integer z = MathUtil.subInt(x, y);
         System.assertEquals(3,z);
     }
+
 }
